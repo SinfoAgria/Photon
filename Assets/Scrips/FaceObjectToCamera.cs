@@ -7,6 +7,5 @@ public class FaceObjectToCamera : MonoBehaviour
     void Update()
     {
         transform.LookAt(Camera.main.transform);
-        transform.position= Camera.main.transform.position;
     }
 }
