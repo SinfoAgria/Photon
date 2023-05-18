@@ -23,6 +23,8 @@ public class Movement : MonoBehaviour
 
     Vector3 rotationInput = Vector3.zero;
 
+    [SerializeField] AnimatorControllerParameter walkin;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();

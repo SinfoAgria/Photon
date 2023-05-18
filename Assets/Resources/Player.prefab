@@ -1157,8 +1157,8 @@ MonoBehaviour:
   magText: {fileID: 587390309961767693}
   ammoText: {fileID: 2792035719716893028}
   recoverPercent: 0.7
-  recoilUp: 0.5
-  recoilBack: 0.5
+  recoilUp: 0.25
+  recoilBack: 0.25
   recovering: 0
 --- !u!4 &7781604100679685694 stripped
 Transform:
