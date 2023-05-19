@@ -5,11 +5,11 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public Camera playerCamera;
-    public float walkSpeed = 4f;
+    public float walkSpeed = 7f;
     public float maxVelocityChange = 10f;
     public float rotationSensibility = 15f;
     public float sprintSpeed = 14f;
-    public float jumpHeigth = 35f;
+    public float jumpHeigth = 55f;
     public float airControl = 0.5f;
 
     private float cameraVerticalAngle;
