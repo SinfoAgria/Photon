@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     public float maxVelocityChange = 10f;
     public float rotationSensibility = 15f;
     public float sprintSpeed = 14f;
-    public float jumpHeigth = 30f;
+    public float jumpHeigth = 35f;
     public float airControl = 0.5f;
 
     private float cameraVerticalAngle;
