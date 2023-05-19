@@ -13,16 +13,16 @@ public class Health : MonoBehaviour
     [PunRPC]
     public void TakeDamage(int _damage)
     {
-        health -= _damage*3;
+        health -= _damage;
 
         healthText.text = health.ToString();
 
-        if(health <= 0)
+        if (health <= 0)
         {
             if (isLocalPlayer)
             {
                 RoomManager.instance.SpawnPlayer();
-            }            
+            }
 
             Destroy(gameObject);
         }
