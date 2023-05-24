@@ -5,9 +5,9 @@ using UnityEngine;
 public class ExtraPlayerSettings : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        Cursor.visible = false;
+        Screen.fullScreen = true;
     }
 
     // Update is called once per frame
