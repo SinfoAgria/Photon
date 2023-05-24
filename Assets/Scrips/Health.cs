@@ -13,7 +13,7 @@ public class Health : MonoBehaviour
     [PunRPC]
     public void TakeDamage(int _damage)
     {
-        health -= _damage;
+        health -= _damage*2;
 
         healthText.text = health.ToString();
 
