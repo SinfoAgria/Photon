@@ -25,6 +25,13 @@ public class Movement : MonoBehaviour
 
     [SerializeField] AnimatorControllerParameter walkin;
 
+    private void Awake()
+    {
+        walkSpeed *= 1.6f;
+        maxVelocityChange *= 1.3f;
+        jumpHeigth *= 1.35f;
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
